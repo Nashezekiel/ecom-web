@@ -615,9 +615,21 @@ ul{
 }
 .bttn_link{
     color: white;
+    transition: all 0.3s ease;
 }
+
+.bttn_link:hover{
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
 .bttn_link2{
     color: red;
+    transition: all 0.3s ease;
+}
+
+.bttn_link2:hover{
+    color: #ff4444;
+    text-shadow: 0 0 8px rgba(255, 68, 68, 0.6);
 }
 .grp>span{
     margin-top: 2rem;
