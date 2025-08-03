@@ -429,6 +429,15 @@ ul{
 }
 .footer_itm{
     margin: 0.5rem 0rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.3rem 0;
+}
+
+.footer_itm:hover{
+    color: red;
+    transform: translateX(10px);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 .bottom_container{
     width: 100%;
