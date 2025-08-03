@@ -100,6 +100,13 @@ ul{
     font-size: 2.2rem;
     font-weight: 800;
     color: black;
+    transition: all 0.3s ease;
+}
+
+.nav_logo:hover{
+    color: red;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 .nav_item{
     margin: 0rem 2rem;
