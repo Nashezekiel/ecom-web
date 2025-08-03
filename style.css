@@ -114,6 +114,15 @@ ul{
 .nav_link{
     padding: 0.6rem;
     color: black;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav_link:hover{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .nav_form{
     padding: 0.4rem;
