@@ -364,6 +364,14 @@ ul{
     padding: 1rem 2rem;
     color: white;
     border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.trend_btn:hover{
+    background-color: #00cc00;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 204, 0, 0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 /* Products */
