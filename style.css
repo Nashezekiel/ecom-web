@@ -20,6 +20,12 @@ body{
 
 a{
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    transform: translateY(-2px);
+    opacity: 0.8;
 }
 
 ul{
@@ -60,6 +66,13 @@ ul{
     font-weight: 600;
     text-decoration: underline;
     color: red;
+    transition: all 0.3s ease;
+}
+
+.top_nav_link:hover{
+    color: #ff4444;
+    text-shadow: 0 0 8px rgba(255, 68, 68, 0.6);
+    transform: scale(1.05);
 }
 
 /* Navbar */
@@ -87,6 +100,13 @@ ul{
     font-size: 2.2rem;
     font-weight: 800;
     color: black;
+    transition: all 0.3s ease;
+}
+
+.nav_logo:hover{
+    color: red;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 .nav_item{
     margin: 0rem 2rem;
@@ -94,6 +114,15 @@ ul{
 .nav_link{
     padding: 0.6rem;
     color: black;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav_link:hover{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .nav_form{
     padding: 0.4rem;
@@ -141,6 +170,18 @@ ul{
 }
 .filter_link{
     color: black;
+    padding: 0.8rem 1rem;
+    margin: 0.2rem 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.filter_link:hover{
+    color: white;
+    background-color: red;
+    transform: translateX(10px);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
 }
 
 /* scrolling slider */
@@ -323,6 +364,14 @@ ul{
     padding: 1rem 2rem;
     color: white;
     border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.trend_btn:hover{
+    background-color: #00cc00;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 204, 0, 0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 /* Products */
@@ -380,6 +429,15 @@ ul{
 }
 .footer_itm{
     margin: 0.5rem 0rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.3rem 0;
+}
+
+.footer_itm:hover{
+    color: red;
+    transform: translateX(10px);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 .bottom_container{
     width: 100%;
@@ -547,12 +605,31 @@ ul{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bttn:hover{
+    background-color: #cc0000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(204, 0, 0, 0.4);
 }
 .bttn_link{
     color: white;
+    transition: all 0.3s ease;
 }
+
+.bttn_link:hover{
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
 .bttn_link2{
     color: red;
+    transition: all 0.3s ease;
+}
+
+.bttn_link2:hover{
+    color: #ff4444;
+    text-shadow: 0 0 8px rgba(255, 68, 68, 0.6);
 }
 .grp>span{
     margin-top: 2rem;
