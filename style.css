@@ -66,6 +66,13 @@ ul{
     font-weight: 600;
     text-decoration: underline;
     color: red;
+    transition: all 0.3s ease;
+}
+
+.top_nav_link:hover{
+    color: #ff4444;
+    text-shadow: 0 0 8px rgba(255, 68, 68, 0.6);
+    transform: scale(1.05);
 }
 
 /* Navbar */
